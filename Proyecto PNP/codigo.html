@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+ <link rel="stylesheet" href="style.css">
+<head>
+	<meta charset="UTF-8">
+	<title>Picas y fijas</title>
+</head>
+<body>
+
+	<h1>Picas y Fijas</h1>
+	<h3>Descripción: </h3><p> Primero debes oprimir el boton de generar número, internamente se generan 3 numeros <br> (el cual puedes revisar en consola con las teclas 'ctr+ shift +i ') <br> despues debes adivinar los números que se generaron con su respectiva posición, te sera avisado si el número es correcto o no y si la posición en la que lo pones es correcta o no </p>
+
+	<input type="text" id="uno">
+	<input type="text" id="dos">
+	<input type="text" id="tres">
+	<button onclick="generar()"> generar numero </button>
+	<button onclick="verificar()"> comprobar</button>
+	 <p style="color:white;">intentos: </p><p style="color:rgb(0, 204, 255);" id="c"> 0 </p>
+	 <p style="color:white;" id="1"></p>
+	 <p style="color:white;" id="2"></p>
+	 <p style="color:white;" id="3"></p>
+	 <p id="2"></p>
+	 <p id="3"></p>
+	<script src="codigo.js"></script>
+
+	<br>
+	<div>
+		<h3 style="padding-left: 10px;">¡Recuerda!</h3> <p style="color:rgb(0, 204, 255);padding-left: 10px;"> No hay numeros duplicados por lo tanto no uses el mismo numero en varios campos</p>
+		</div>
+</body>
+</html>
